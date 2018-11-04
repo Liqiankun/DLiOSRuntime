@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631D0A69218E985C00D7E29A /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D0A68218E985C00D7E29A /* Bird.m */; };
 		63CF1305218D4019001F2390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF1304218D4019001F2390 /* AppDelegate.m */; };
 		63CF1308218D4019001F2390 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF1307218D4019001F2390 /* ViewController.m */; };
 		63CF130B218D4019001F2390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CF1309218D4019001F2390 /* Main.storyboard */; };
 		63CF130D218D401B001F2390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CF130C218D401B001F2390 /* Assets.xcassets */; };
 		63CF1310218D401B001F2390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CF130E218D401B001F2390 /* LaunchScreen.storyboard */; };
 		63CF1313218D401B001F2390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF1312218D401B001F2390 /* main.m */; };
+		63CF131B218D4177001F2390 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF1319218D4177001F2390 /* People.m */; };
+		63CF131E218D42D2001F2390 /* People+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF131D218D42D2001F2390 /* People+Associated.m */; };
+		63CF1321218D45EB001F2390 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CF1320218D45EB001F2390 /* NSObject+Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		631D0A67218E985C00D7E29A /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		631D0A68218E985C00D7E29A /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 		63CF1300218D4019001F2390 /* DLiOSRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLiOSRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CF1303218D4019001F2390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63CF1304218D4019001F2390 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		63CF130F218D401B001F2390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63CF1311218D401B001F2390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63CF1312218D401B001F2390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63CF1319218D4177001F2390 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		63CF131A218D4177001F2390 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		63CF131C218D42D2001F2390 /* People+Associated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "People+Associated.h"; sourceTree = "<group>"; };
+		63CF131D218D42D2001F2390 /* People+Associated.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "People+Associated.m"; sourceTree = "<group>"; };
+		63CF131F218D45EB001F2390 /* NSObject+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		63CF1320218D45EB001F2390 /* NSObject+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				63CF1303218D4019001F2390 /* AppDelegate.h */,
 				63CF1304218D4019001F2390 /* AppDelegate.m */,
+				631D0A67218E985C00D7E29A /* Bird.h */,
+				631D0A68218E985C00D7E29A /* Bird.m */,
+				63CF131A218D4177001F2390 /* People.h */,
+				63CF1319218D4177001F2390 /* People.m */,
+				63CF131C218D42D2001F2390 /* People+Associated.h */,
+				63CF131D218D42D2001F2390 /* People+Associated.m */,
+				63CF131F218D45EB001F2390 /* NSObject+Model.h */,
+				63CF1320218D45EB001F2390 /* NSObject+Model.m */,
 				63CF1306218D4019001F2390 /* ViewController.h */,
 				63CF1307218D4019001F2390 /* ViewController.m */,
 				63CF1309218D4019001F2390 /* Main.storyboard */,
@@ -141,7 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CF131B218D4177001F2390 /* People.m in Sources */,
+				631D0A69218E985C00D7E29A /* Bird.m in Sources */,
+				63CF131E218D42D2001F2390 /* People+Associated.m in Sources */,
 				63CF1308218D4019001F2390 /* ViewController.m in Sources */,
+				63CF1321218D45EB001F2390 /* NSObject+Model.m in Sources */,
 				63CF1313218D401B001F2390 /* main.m in Sources */,
 				63CF1305218D4019001F2390 /* AppDelegate.m in Sources */,
 			);
